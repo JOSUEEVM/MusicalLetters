@@ -1,0 +1,31 @@
+body 
+{
+    font-family: "Enroded", sans-serif;
+    background-color: rgb(176, 185, 185);
+    text-align: center;
+    margin-top: 200px;
+}
+@font-face
+{
+    font-family: "Enroded";
+    src:url("font/Enroded.ttf")
+}
+h1
+{
+    font-size: 100px;
+    color: rgb(168, 14, 14);
+}
+#text
+{
+    
+    font-size: 60px; 
+}
+#start
+{
+    font-size: 30px;
+    font-family: "Enroded", sans-serif;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #3a86f8;
+}
