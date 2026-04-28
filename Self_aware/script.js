@@ -35,37 +35,3 @@ btnStart.addEventListener("click", () => {
   index = 0;
   showPhrase();
 });
-/*{}
-const music = 
-[{text: "I wanna be your vacuum cleaner", time: 2000},
-{text: "Breathing in your dust", time: 10000},
-{text: "I will never rust", time: 2000},
-{text: "I will never rust", time: 2000}];
-
-const textInHTML = document.getElementById("text");
-const btnStart = document.getElementById("start");
-
-let index = 0;
-
-function showPrhase()
-{
-    textInHTML.textContent = music[index].text;
-    
-    timeOut (()=> 
-        {
-            index++;
-            if(index < music.length)
-            {
-                showPharse();
-            }
-            
-        }, music[index].time
-    );
-}
-btnStart.addEventListener("click", ()=> 
-    {
-        
-        index = 0;
-        showPharse();
-    }
-)*/
